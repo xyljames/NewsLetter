@@ -1,0 +1,51 @@
+.call-outs-container{
+	max-width: 1400px;
+	margin: 2px auto 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row wrap;
+	align-content: space-between;
+	justify-content: flex-start;
+}
+
+.call-out{
+	min-width: 180px;
+	min-height: 120px;
+	padding: 0px;
+	margin-bottom: 2px;
+	// flex-basis: 50%;
+	height: 100%;
+	flex: 1;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.call-out-line-break {
+	width: 100%;
+}
+
+.call-out:last-child{
+	margin-right: 0px;
+
+}
+.call-out h1{
+	color: #3A90CC;
+}
+
+.call-out p{
+	font-size: 18px;
+	font-family: calibri;
+}
+
+.call-out a{
+	text-decoration: none;
+	color: #3A90CC;
+
+
+}
+
+
+.call-out img{
+	width: 100%;
+	height: 50%;
+}
